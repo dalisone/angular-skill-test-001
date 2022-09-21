@@ -11,7 +11,7 @@ O Objetivo desse teste é avaliar as habilidades do candidato em front-end (Angu
  
 ## Objetivos da Aplicação
 
-a Aplicação deve fazer o consumo de uma API publica e gratuita de escolha do candidato ([Lista de API's](https://github.com/public-apis/public-apis)), e exibir os resultados em uma estrutura do Tipo (Grid/Table), para isso utilizar os componentes da biblioteca `Material` [material.angular.io](https://material.angular.io/guide/getting-started) ou alguma biblioteca de sua preferência.
+- Aplicação deverá fazer o consumo de uma API publica e gratuita de escolha do candidato ([Lista de API's](https://github.com/public-apis/public-apis)), e exibir os resultados em uma estrutura do Tipo (Grid/Table), para isso utilizar os componentes da biblioteca `Material` [material.angular.io](https://material.angular.io/guide/getting-started) ou alguma biblioteca de sua preferência.
 
  - para recuperar os dados da api utilizar um service:  `api-service.ts` com a implementação de um método `getdados()` faça as implementações que julgar necessarias:   
  - utilize os arquivos de `environments` para armazenar o endpoint da api.
