@@ -6,14 +6,14 @@ O Objetivo desse teste é avaliar as habilidades do candidato em front-end (Angu
 
 # Instruções 
 
- 1. Crie uma branch com o seu nome a partir da master
+ 1. Crie uma branch com o seu nome a partir da branch main
  2. Clone o repositório na sua maquina e selecione a branch criada no passo 1.
  
 ## Objetivos da Aplicação
 
-a Aplicação deve fazer o consumo de uma API publica e gratuita de escolha do candidato ([Lista de API's](https://github.com/public-apis/public-apis)), e exibir os resultados em uma estrutura do Tipo (Grid/Table), para isso utilizar os componentes da biblioteca `Material` [material.angular.io](https://material.angular.io/guide/getting-started)
+a Aplicação deve fazer o consumo de uma API publica e gratuita de escolha do candidato ([Lista de API's](https://github.com/public-apis/public-apis)), e exibir os resultados em uma estrutura do Tipo (Grid/Table), para isso utilizar os componentes da biblioteca `Material` [material.angular.io](https://material.angular.io/guide/getting-started) ou alguma biblioteca de sua preferência.
 
- - para recuperar os dados da api utilizar o service:  `api-service.ts`e o método `getdados()` faça as implementações que julgar necessarias:   
+ - para recuperar os dados da api utilizar um service:  `api-service.ts` com a implementação de um método `getdados()` faça as implementações que julgar necessarias:   
  - utilize os arquivos de `environments` para armazenar o endpoint da api.
 
 ## Estrutura da Pagina
@@ -26,4 +26,10 @@ a Aplicação deve fazer o consumo de uma API publica e gratuita de escolha do c
 
 ![TLV test project](https://i.ibb.co/nbNpcPP/angular-skills.png)
 
+# Considerações finais
+
+ 1. Após o término do teste, submeta um Pull Request da branch criada para a branch main
+ 2. Caso deseje, o candidato poderá incluir novos arquivos, usar outras bibliotecas, sempre respeitando os requisitos informados neste readme.
+ 3. A publicação do projeto compilado em uma imagem Docker será um diferencial :) Nesta situação, informar no Pull Request o endereço da imagem para execução
+ 4. Agradecemos o tempo dedicado para este teste. Boa sorte!!
 
