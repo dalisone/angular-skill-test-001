@@ -17,7 +17,8 @@ a Aplicação deve fazer o consumo de uma API publica e gratuita de escolha do c
  - utilize os arquivos de `environments` para armazenar o endpoint da api.
 
 ## Estrutura da Pagina
-a Aplicação deve conter apenas toolbar superior **FIXO** com o logo e nome da empresa, e no body um botão que troque a rota, utilzando o `router-outlet` [Referencia](https://angular.io/guide/router-tutorial-toh), a estilização (css/scss) e por sua conta!
+- Aplicação deve conter apenas toolbar superior **FIXO** com o logo e nome da empresa, e no body um botão que troque a rota, utilzando o `router-outlet` [Referencia](https://angular.io/guide/router-tutorial-toh).
+- A estilização (css/scss) e por conta do candidato. Sabemos que o candidato não é designer :) porém, o bom senso estético é de suma Importancia!, capriche no css!
 
 - para a rota utilize o nome dados "/dados":   
 
@@ -26,5 +27,3 @@ a Aplicação deve conter apenas toolbar superior **FIXO** com o logo e nome da 
 ![TLV test project](https://i.ibb.co/nbNpcPP/angular-skills.png)
 
 
-
- > visual da página é de suma Importancia!, capriche no css!
