@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DadosComponent } from './dados/dados.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { PagInicialComponent } from './pag-inicial/pag-inicial.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DadosComponent,
-    TopBarComponent
+    TopBarComponent,
+    PagInicialComponent
   ],
   imports: [
     BrowserModule,
