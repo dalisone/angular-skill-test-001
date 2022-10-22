@@ -1,0 +1,23 @@
+.container {
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botao1 {
+    width: 80%;
+    padding: 15px;
+}
+
+.botao1 button{
+    width: 200px;
+    padding: 35px;
+}
+
+
+@media (max-width: 990px){
+    .botao1 {
+        width: 100%;
+    }
+}
