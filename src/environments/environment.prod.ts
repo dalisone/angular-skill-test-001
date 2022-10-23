@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  api:"ENDPOINT_AQUI"
+  api:"https://nova.bitcambio.com.br/api/v3/public/getassets"
 };
