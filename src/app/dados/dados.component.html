@@ -1,24 +1,32 @@
 <app-top-bar></app-top-bar>
 <div class="principal">
     <div class="titulo">
-        <h1>
-            Charts Graph
-        </h1>
+        <div class="voltar">
+            <a routerLink=""><button type="button" class="btn btn-primary btn-lg">Voltar</button></a>
+        </div>
+
+        <div class="text">
+            <h1>
+                Gráfico Cryptos
+            </h1>
+        </div>
     </div>
     <div class="tabela">
-        <table class="table table-stripped">
+        <table class="table table-striped">
           <thead>
             <tr>
+                <th scope="col">Código</th>
                 <th scope="col">Nome</th>
-                <th scope="col">Idade</th>
-                <th scope="col">Saldo</th>
+                <th scope="col">Protocolo</th>
+                <th scope="col">Taxa de Saque</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>dado1</td>
-              <td>dado2</td>
-              <td>dado3</td>
+            <tr *ngFor="let item of dados">
+              <td>{{item.Asset}}</td>
+              <td>{{item.AssetLong}}</td>
+              <td>{{item.SystemProtocol}}</td>
+              <td>{{item.WithdrawTxFee}}</td>
             </tr>
           </tbody>
         </table>

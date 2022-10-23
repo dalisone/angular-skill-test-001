@@ -14,4 +14,32 @@ table{
 .titulo{
     padding: 5px;
     margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+}
+
+.voltar{
+    width: 40%;
+    margin-left: 2%;
+}
+
+.text{
+    width: 60%;
+}
+
+@media (max-width: 991px){
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 6px;
+    }
+    .voltar{
+        width: 25%;
+    }
+    .text{
+        margin-top: 14%;
+        width: 50%;
+    }
 }

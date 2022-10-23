@@ -14,10 +14,12 @@ export class DadosComponent implements OnInit {
   constructor(private apiService: ApiService) { }
 
   ngOnInit(): void {
+
     this.apiService.getdados()
     .then( (response : any) => {
-      this.dados = response.result;
+      this.dados = response;
     })
+
   }
 
 }
