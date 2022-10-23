@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import axios from 'axios';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +13,7 @@ export class ApiService {
     var data = JSON.stringify({});
     var config = {
       method: 'get',
-      url: 'https://nova.bitcambio.com.br/api/v3/public/getassets',
+      url: environment.api,
       headers: { 
         'Content-Type': 'application/json',
       },
