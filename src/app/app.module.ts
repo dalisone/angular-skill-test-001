@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { DadosComponent } from './dados/dados.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { PagInicialComponent } from './pag-inicial/pag-inicial.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ApiService } from 'src/services/api-service';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,10 @@ import { PagInicialComponent } from './pag-inicial/pag-inicial.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

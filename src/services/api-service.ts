@@ -14,8 +14,13 @@ export class ApiService
     }
     
     public getDados(): Observable<any>{ 
-        //Faça as implementações necessarias aqui e chame esse metodo dentro do component para popular a Grid 
-        return this._httpClient.get(`${this.config.api}`);
+        return this._httpClient.get(`${this.config.api}`).pipe(
+            catchError(err => {
+                console.log("Erro ao consumir a API")
+                return throwError(err);
+            })
+            
+        )
     }
 
 }

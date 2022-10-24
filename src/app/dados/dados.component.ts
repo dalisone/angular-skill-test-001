@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../api.service';
+import { ApiService } from 'src/services/api-service';
 import { Dados } from '../dados';
 
 @Component({
@@ -15,9 +15,9 @@ export class DadosComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.apiService.getdados()
-    .then( (response : any) => {
-      this.dados = response;
+    this.apiService.getDados()
+    .subscribe( response => {
+      this.dados = response.result;
     })
 
   }
